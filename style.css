@@ -1,0 +1,104 @@
+@media screen and (min-width:1000px) and (max-width:1800px){
+  
+.nav {
+  display: flex;
+  padding: 3%;
+}
+.nav img {
+  height: 40px;
+  width: 200px;
+  margin-left: 60px;
+}
+.nav .box {
+  display: flex;
+  list-style-type: none;
+  position: relative;
+  margin-left: 400px;
+}
+.nav .box li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  display: block;
+  padding-left: 50px;
+}
+.nav .bar {
+  display: none;
+}
+
+.top {
+  margin-left: 100px;
+  display: flex;
+}
+.top .cont1 h1 {
+  font-size: 80px;
+}
+.top .cont1 img {
+  height: 25px;
+  width: 30px;
+}
+.top .cont1 .bt {
+  border: none;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: rgb(55, 191, 245);
+  color: white;
+}
+.top .cont1 .bt1 {
+  border-color: black;
+  height: 50px;
+  width: 170px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  margin-left: 30px;
+}
+.top .cont1 .agent1 .a {
+  font-size: 19px;
+  margin-left: 15px;
+}
+.top .cont1 .agent2 .a {
+  margin-left: 15px;
+}
+.top .imgone img {
+  height: 600px;
+  width: 700px;
+  margin-left: 100px;
+}
+
+.bottom {
+  margin-left: 100px;
+}
+.bottom h4 {
+  color: rgb(55, 191, 245);
+  font-size: 40px;
+}
+.bottom .join {
+  display: flex;
+}
+.bottom .join .end {
+  margin-left: 30px;
+}
+.bottom h1 {
+  font-size: 75px;
+}
+.bottom pre {
+  font-size: 23px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.bottom img {
+  height: 700px;
+  width: 700px;
+}
+.bottom .bt {
+  border: none;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: rgb(55, 191, 245);
+  color: white;
+}/*# sourceMappingURL=style.css.map */
+}

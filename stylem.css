@@ -1,0 +1,99 @@
+@media screen and (min-width:360px) and (max-width:640px){
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+.nav img {
+  height: 20px;
+  width: 100px;
+}
+.nav .box {
+  display: none;
+}
+.nav button {
+  display: none;
+}
+
+.top {
+  margin-left: 26px;
+}
+.top .cont1 h1 {
+  font-size: 55px;
+}
+.top .cont1 h5 {
+  font-size: 15px;
+}
+.top .cont1 img {
+  height: 10px;
+  width: 15px;
+}
+.top .cont1 .bt {
+  border: none;
+  height: 50px;
+  width: 95%;
+  border-radius: 5px;
+  background-color: rgb(55, 191, 245);
+  color: white;
+}
+.top .cont1 .bt1 {
+  border-color: black;
+  height: 50px;
+  width: 95%;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  margin-top: 15px;
+}
+.top .cont1 .agent1 .a {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.top .cont1 .agent2 .a {
+  margin-left: 20px;
+}
+.top .cont1 .agent1 .b {
+  font-size: 20px;
+}
+.top .imgone img {
+  height: 400px;
+  width: 400px;
+}
+.bottom {
+  margin-left: 26px;
+}
+.bottom h4 {
+  color: rgb(55, 191, 245);
+  font-size: 20px;
+}
+.bottom h1 {
+  font-size: 30px;
+}
+.bottom .join {
+  display: flex;
+  flex-direction: column;
+}
+.bottom .join .end {
+  margin-left: 0;
+}
+.bottom .join .end h2 {
+  font-size: 20px;
+}
+.bottom .join pre {
+  font-size: 13px;
+  margin-left: 0;
+}
+.bottom img {
+  height: 400px;
+  width: 440px;
+}
+.bottom .bt {
+  border: none;
+  height: 50px;
+  width: 95%;
+  border-radius: 10px;
+  background-color: rgb(55, 191, 245);
+  color: white;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=stylem.css.map */
+}

@@ -1,0 +1,82 @@
+$bg_color : rgb(55, 191, 245);
+$primary_color : black;
+$secondary_color : white;
+
+.nav{
+    display: flex;
+    padding: 3%;
+    img {
+        height: 40px;
+    width: 200px;
+    margin-left: 60px;
+    }
+    .box {
+        display: flex;
+    list-style-type: none;
+    position: relative;
+    margin-left: 400px;
+    li a{
+        text-decoration: none;
+    color: $primary_color;
+    font-weight: bold;
+    font-size: 22px;
+    display: block;
+    padding-left: 50px;
+    }
+    }
+    .bar{ display: none;}
+}
+.top{
+    margin-left: 100px;
+    display: flex;
+    .cont1{
+        h1{font-size: 80px;}
+        img{height: 25px;
+            width: 30px;}
+        .bt{border: none;
+            height: 50px;
+            width: 150px;
+            border-radius: 10px;
+            background-color: $bg_color;
+            color: $secondary_color;}
+        .bt1{border-color: $primary_color;
+            height: 50px;
+            width: 170px;
+            border-radius: 10px;
+            background-color: $secondary_color;
+            color: $primary_color;
+            margin-left: 30px;}
+        .agent1 .a{font-size: 19px;
+            margin-left: 15px;}
+        .agent2 .a{margin-left: 15px;}                
+    }
+    .imgone img{
+        height: 600px;
+    width: 700px;
+    margin-left: 100px;
+    }
+}
+.bottom{
+    margin-left: 100px;
+    h4{
+        color: $bg_color;
+    font-size: 40px;
+    }
+    .join{display: flex;
+    .end{margin-left: 30px;}}
+    h1{font-size: 75px;}
+    pre{font-size: 23px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    img{height: 700px;
+        width: 700px;}
+    .bt{
+        border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: $bg_color;
+    color: $secondary_color;
+    }    
+}

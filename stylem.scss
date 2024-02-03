@@ -1,0 +1,65 @@
+$bg_color : rgb(55, 191, 245);
+$primary_color : black;
+$secondary_color : white;
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    img{
+        height: 20px;
+    width: 100px;
+    }
+    .box{display: none;}
+    button{display: none;}
+}
+.top{
+    margin-left: 26px;
+    .cont1{
+        h1{font-size: 55px;}
+        h5{font-size: 15px;}
+        img{height: 10px;
+            width: 15px;}
+        .bt{border: none;
+            height: 50px;
+            width: 95%;
+            border-radius: 5px;
+            background-color: $bg_color;
+            color: $secondary_color;}
+        .bt1{border-color: $primary_color;
+            height: 50px;
+            width: 95%;
+            border-radius: 5px;
+            background-color: $secondary_color;
+            color: $primary_color;
+            margin-top: 15px;}
+        .agent1 .a{font-size: 20px;
+            margin-left:20px;}
+        .agent2 .a{margin-left: 20px;}   
+        .agent1 .b{font-size: 20px;}    
+    }
+    .imgone img{height: 400px;
+        width: 400px;
+        }
+}
+.bottom{
+    margin-left: 26px;
+    h4{color: $bg_color;
+        font-size: 20px;}
+    h1{font-size: 30px;}    
+    .join{display: flex;
+        flex-direction: column;
+    .end{margin-left: 0;
+    h2{font-size: 20px;}}
+pre{font-size: 13px;
+    margin-left: 0;}} 
+    img{height: 400px;
+        width: 440px;}
+    .bt{border: none;
+        height: 50px;
+        width: 95%;
+        border-radius: 10px;
+        background-color: $bg_color;
+        color: $secondary_color;
+        margin-bottom: 20px;}       
+}
